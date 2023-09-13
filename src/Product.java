@@ -42,6 +42,13 @@ public class Product {
     public void setDescription(String description) {
         this.description = description;
     }
+    public static int getINDEX() {
+        return INDEX;
+    }
+    public static void setINDEX(int INDEX) {
+        Product.INDEX = INDEX;
+    }
+
     @Override
     public String toString() {
         return "Product: " +
